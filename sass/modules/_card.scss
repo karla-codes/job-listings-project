@@ -1,7 +1,7 @@
 div.container {
   background-color: $cardColor;
   border-radius: 5px;
-  box-shadow: 5px 5px 15px $boxShadow;
+  box-shadow: 1px 2px 15px 5px $boxShadow;
   width: 80%;
   margin: 3.125rem auto;
   padding: 1.25rem;
@@ -21,7 +21,32 @@ div.container {
     display: flex;
 
     h1 {
-      font-size: 1rem;
+      color: $primaryColor;
+      font-size: $titleFontSize;
+      font-weight: $fontBold;
+      padding-right: 1rem;
     }
+  }
+
+  .job-title {
+    margin: 1rem 0;
+    text-align: left;
+
+    h2 {
+      color: $largeTextColor;
+      font-size: $subtitleFontSize;
+      font-weight: $fontBold;
+    }
+  }
+
+  .job-info {
+    color: $smallTextColor;
+    font-size: $titleFontSize;
+    font-weight: $fontRegular;
+    margin-bottom: 1rem;
+  }
+
+  .job-tags {
+    margin-top: 1rem;
   }
 }
