@@ -1,0 +1,27 @@
+div.container {
+  background-color: $cardColor;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px $boxShadow;
+  width: 80%;
+  margin: 3.125rem auto;
+  padding: 1.25rem;
+
+  .logo {
+    position: relative;
+    width: 50px;
+    // left: 0.2rem;
+    bottom: 2.6rem;
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .job {
+    display: flex;
+
+    h1 {
+      font-size: 1rem;
+    }
+  }
+}
