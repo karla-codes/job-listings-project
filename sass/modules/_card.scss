@@ -2,14 +2,14 @@ div.container {
   background-color: $cardColor;
   border-radius: 5px;
   box-shadow: 1px 2px 15px 5px $boxShadow;
-  width: 80%;
+  width: 85%;
+  height: 16.25rem;
   margin: 3.125rem auto;
   padding: 1.25rem;
 
   .logo {
     position: relative;
     width: 50px;
-    // left: 0.2rem;
     bottom: 2.6rem;
 
     img {
@@ -19,6 +19,7 @@ div.container {
 
   .job {
     display: flex;
+    margin-top: -1.875rem;
 
     h1 {
       color: $primaryColor;
@@ -47,6 +48,12 @@ div.container {
   }
 
   .job-tags {
+    display: flex;
+    flex-flow: row wrap;
     margin-top: 1rem;
+
+    button {
+      @include filter-buttons;
+    }
   }
 }

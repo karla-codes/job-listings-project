@@ -1,11 +1,13 @@
 $primaryColor: hsl(180, 29%, 50%);
-$backgroundColor: hsl(180, 52%, 96%);
-$cardColor: hsl(180, 31%, 95%);
+$backgroundColor: rgb(242, 250, 251);
+$cardColor: rgb(255, 255, 255);
 $smallTextColor: hsl(0, 0%, 58%);
 $largeTextColor: hsl(180, 14%, 20%);
 $boxShadow: hsla(180, 29%, 50%, 0.208);
+$buttonBackgroundColor: rgb(239, 247, 246);
 
 $fontRegular: 500;
 $fontBold: 700;
 $titleFontSize: 0.875rem;
 $subtitleFontSize: 1rem;
+$buttonFontSize: 0.75rem;

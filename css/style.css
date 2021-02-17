@@ -25,13 +25,14 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #effafa; }
+  background-color: #f2fafb; }
 
 div.container {
-  background-color: #eef6f6;
+  background-color: white;
   border-radius: 5px;
   box-shadow: 1px 2px 15px 5px rgba(91, 164, 164, 0.208);
-  width: 80%;
+  width: 85%;
+  height: 16.25rem;
   margin: 3.125rem auto;
   padding: 1.25rem; }
   div.container .logo {
@@ -41,7 +42,8 @@ div.container {
     div.container .logo img {
       width: 50px; }
   div.container .job {
-    display: flex; }
+    display: flex;
+    margin-top: -1.875rem; }
     div.container .job h1 {
       color: #5ba4a4;
       font-size: 0.875rem;
@@ -60,4 +62,16 @@ div.container {
     font-weight: 500;
     margin-bottom: 1rem; }
   div.container .job-tags {
+    display: flex;
+    flex-flow: row wrap;
     margin-top: 1rem; }
+    div.container .job-tags button {
+      font-family: "Spartan", sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #5ba4a4;
+      background-color: #eff7f6;
+      padding: 10px;
+      margin: 0 1rem 1rem 0;
+      border-radius: 3px;
+      border-style: none; }
